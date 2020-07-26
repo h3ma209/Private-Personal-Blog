@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/7321/sea-water-ocean-horizon.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  font-family: Georgia, serif;
+}
+
+.container {
+  box-shadow: 0px 0px 20px #00000029;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background: white;
+
+  width: 120vh !important;
+  padding: 40px;
+  color: #757575;
+  height: auto;
+}
+
+.container h1 {
+  font-size: 55px;
+}
+.container h4 {
+  font-size: 30px;
+}
+.container .blogs-container {
+  box-shadow: 0px 0px 20px #00000029;
+  min-height: 360px;
+  max-height: 360px;
+  width: 95%;
+  overflow-y: hidden;
+}
+.container .scroll {
+  height: 100%;
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .blogs-container .blog {
+  height: 120px;
+  font-size: 12px;
+  width: 33%;
+  margin: 0.15%;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.container .blogs-container .blog:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.container .blogs-container .blog .blog-fg {
+  display: grid;
+  place-items: center;
+
+  height: 120px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.container .blogs-container .blog .blog-fg h1 {
+  font-size: 40px;
+}
+
+.container .controls button {
+  border-radius: 50px;
+  border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #00000038;
+  text-align: center;
+  height: 30px;
+  margin:20px;
+  width: 100px;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  cursor: pointer;
+}
+
+#up{
+  background:#2BCAE3;
+  color:white;
+}
+.container .blogs-container .scroll {
+  position: relative;
+}
+

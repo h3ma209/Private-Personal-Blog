@@ -1,0 +1,112 @@
+html,body{
+  padding:0;
+  margin:0;
+  
+  width:100%;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/26681/pexels-photo-26681.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  display: grid;
+  place-items:center;
+  font-family:Georgia, serif;
+}
+
+.container{
+    box-shadow: 0px 0px 20px #00000029;
+  display: grid;
+  
+  
+  background:white;
+  margin:60px;
+  width: 80vh!important;
+  padding:40px;
+  color:#757575;
+  height: auto;
+}
+
+
+.container .title{
+  font-size:55px;
+  place-self:center;
+  font-weight:bold;
+}
+.container h4{
+  font-size:30px;
+  margin-bottom: 18px;
+}
+.container .mood-grid{ 
+  display:grid;
+   grid-template-columns: auto auto auto auto;
+  
+  grid-column-gap: 14px;
+  grid-row-gap: 13px;
+  width:100%;
+  margin-bottom:50px;
+}
+.form{
+  display:grid;
+  place-items:center;
+  grid-gap: -2px;
+}
+.form input{
+  width: 300px;
+  height: 42px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #00000038;
+  border:none;
+  opacity: 1;
+  font-size:18px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:Georgia, serif;
+
+}
+
+
+.mood{
+  border:none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 8px #00000038;
+  text-align:center;
+  height:50px;
+  width:100px;
+  display:grid;
+  place-items:center;
+  transition:all 0.5s ease;
+  font-size:18px;
+}
+.mood:hover{
+  background:#707070;
+  color:white;
+  cursor:pointer;
+}
+
+.container .actions{
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-gap:50px;
+  place-self:center;
+}
+.container button{
+  border-radius:50px;
+  border:none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 8px #00000038;
+  text-align:center;
+  height:50px;
+  width:100px;
+  font-size:18px;
+  font-family:Georgia, serif;
+  cursor:pointer;
+}
+#cancel{
+  
+}
+#create{
+  background:#2BCAE3;
+  color:white;
+}

@@ -1,0 +1,113 @@
+html,body{
+  padding:0;
+  margin:0;
+  width:100%;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  display: grid;
+  place-items:center;
+  font-family:Georgia, serif;
+}
+
+.container{
+    box-shadow: 0px 0px 20px #00000029;
+  display: grid;
+  place-items:center;
+  margin:0;
+  background:white;
+  margin:60px;
+  width: 100vh!important;
+  padding:40px;
+  color:#606060;
+}
+
+.container .title{
+  margin-bottom:80px;
+}
+
+.cell{
+  margin:18px;
+}
+.container .title{
+  font-size:55px;
+  align-self:start;
+  font-weight:bold;
+}
+
+.container .cell-title h1,input{
+  font-weight:700;
+  font-size:27px; 
+  text-transform:capitalize;
+}
+.container .cell-title input{
+  margin-bottom:10px;
+}
+.container .cell-blog .cell-paragraph{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000038;
+  opacity: 1;
+  padding:20px;
+  width:450px;
+  word-spacing:0.6px;
+  line-height:25px;
+  font-size:20px;
+  align-self:start;
+  font-family:Georgia, serif;
+}
+.container .cell-blog textarea{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000038;
+  opacity: 1;
+  padding:20px;
+  width:450px;
+  word-spacing:0.6px;
+  border:none;
+  font-size:20px;
+  align-self:start;
+  font-family:Georgia, serif;
+}
+input{
+  width: 300px;
+  height: 42px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #00000038;
+  border:none;
+  opacity: 1;
+  font-size:21px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:Georgia, serif;
+}
+
+.container button{
+  margin:10px;
+  border:none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 8px #00000038;
+  text-align:center;
+  height:30px;
+  width:100px;
+  font-size:14px;
+  font-family:Georgia, serif;
+  cursor:pointer;
+}
+#delete{
+  
+}
+#create{
+  background:#2BCAE3;
+  color:white;
+}
+
+.press{
+  background:#313131;
+  color:white;
+  padding:2px;
+  font-size: 12px;
+  border-radius: 2px;
+}

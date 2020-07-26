@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheets/index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Blogs</h1>
+            <div class='blogs-container'>
+              <div class="scroll">
+                
+              </div>
+            </div>
+            <div class="controls">
+              <button v-on:click='scrollUp()' v-if='slidesLeft>1' id='up'>up</button><button v-on:click='scrollDown()' v-if='slidesLeft<child_d_sec'>down</button>
+            </div>
+            
+            
+          
+          </div>
+          
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+          <script src="http://localhost:200/socket.io/socket.io.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+            <script  src="javascripts/index.js"></script>
+    </body>
+</html>

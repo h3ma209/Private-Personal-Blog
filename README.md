@@ -1,2 +1,2 @@
-# Private-Personal-Blog
+# Personal Blog
  
